@@ -1,0 +1,140 @@
+body {
+    margin:0;
+    border:0;
+    box-sizing: border-box;
+}
+*
+{
+
+    margin:0;
+    border:0;
+    box-sizing: border-box;
+    
+}
+
+/*HEADER*/
+.navbar {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:75px;
+    border-bottom: 1px solid black;
+}
+
+.nav-leftside {
+    display: block;
+    margin: 5px;
+    width: 150px;
+    height: 75px;
+    line-height: 75px;
+    font-size: 45px;
+    text-align: center;
+    margin-left: 30px;
+   
+}
+
+.nav-leftside a {
+    text-decoration: none;
+    color:black;
+}
+
+
+.hamburger {
+    display: none;
+}
+
+.menyliste {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menyliste li {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menyliste li a {
+    display: block;
+    text-align: right;
+    padding: 5px;
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.menyliste li a:hover {
+   color:grey;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -60px;
+    visibility: hidden;
+}
+
+/*CONTENT WEBPAGE*/
+
+.page-wrapper
+{
+    width:100%;
+    border:1px solid black;
+    margin-top:75px;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.content-box
+{
+    border:1px solid blue;
+    width:100%;
+    margin:10px;
+   
+}
+
+/*Footer*/
+
+footer
+{
+    border:1px solid red;
+    
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-box
+{
+    border:1px solid yellow;
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.footer-box h3
+{
+    border-bottom:1px solid black;
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer-box.logo
+{
+    justify-content: center;
+    font-size: 45px;
+    
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <tile>Inova</tile>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/hami.css">
+        <link rel="stylesheet" href="./css/tony.css">
+        <link rel="stylesheet" href="./css/vegard.css">
+        <link rel="stylesheet" href="./css/responsive.css">
+
+        <script src="https://kit.fontawesome.com/04bc7cb3ba.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+
+        <!-- Her er headeren-->
+        <nav class="navbar">
+            <div class="nav-leftside">
+                <a href="index.html">INOVA</a>
+            </div>
+            <div class="nav-rightside">
+                <ul class="menyliste" id="menylisteId">
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="">INNOVATION CAMPS</a></li>
+                    <li><a href="">OUR STAFF</a></li>
+                    <li><a href="">LANGUAGE</a></li>
+                    
+                </ul>
+                <span class="hamburger" id="hamburgerId">
+                    <i class="fa fa-bars"></i>
+                </span>
+            </div>
+        </nav>
+
+        <!-- Denne div klassen ligger under header og skal ha alt av innhold inni seg-->
+        <div class="page-wrapper">
+
+            <!--VIKTIG! ikke bruk klassen content-box når dere redigerer, bruk heller
+            klassen jeg har skrevet bak, eller lag din egen klasse hvis du feks skal endre boksen sin display.
+            Endringer i "content-box" vil påvirke ALLE tre boksene.-->
+            <div class="content-box box1">
+                Her skal hami legge inn
+            </div>
+
+              
+            <div class="content-box box2">
+                her skal tony legge inn
+            </div>
+
+           
+            <div class="content-box box3">
+                her skal vegard legge inn
+            </div>
+
+        </div>
+
+        <!--Her kommer footer med kontakt info-->
+        <footer>
+            <div class="footer-box">
+                <h3>CONTACT</h3>
+                <div class="contact">
+
+                </div>
+            </div>
+            
+            <div class="footer-box logo" >
+                INOVA
+            </div>
+
+            <div class="footer-box">
+                <h3>SOCIAL MEDIA</h3>
+                <div class="social-media">
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-facebook-square"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                </div>
+            </div>
+        </footer>
+
+        <script type="text/javascript">
+            let menylisteVar = document.getElementById('menylisteId');
+            let hamburgerVar = document.getElementById('hamburgerId');
+    
+            hamburgerVar.addEventListener('click', function() {
+                menylisteVar.classList.toggle('aktiv');
+            });
+    
+            menylisteVar.addEventListener('click', function() {
+                if (menylisteVar.classList.contains('aktiv')) {
+                    menylisteVar.classList.toggle('aktiv');
+                };
+            });
+        </script>
+
+    </body>
+</html>
