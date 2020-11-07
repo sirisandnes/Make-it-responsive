@@ -1,0 +1,29 @@
+/*flexbox*/
+.wrapper-content-vegard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 30px;
+}
+.staff {
+    border: 5px solid #f3f0f0;
+    background-color: #f3f0f0;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+.staff a {
+    text-decoration: none;
+}
+.staff img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+.staff p {
+    text-align: center;
+    
+    margin-top: 10px;
+    font-size: 1.5em;
+}
