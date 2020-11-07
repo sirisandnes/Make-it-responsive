@@ -2,6 +2,7 @@ body {
     margin:0;
     border:0;
     box-sizing: border-box;
+    background-color: #6994a73d;
 }
 *
 {
@@ -9,6 +10,7 @@ body {
     margin:0;
     border:0;
     box-sizing: border-box;
+    font-family:'Space Grotesk', sans-serif;;
     
 }
 
@@ -23,7 +25,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height:75px;
-    border-bottom: 1px solid black;
+    
 }
 
 .nav-leftside {
@@ -80,15 +82,23 @@ a.anchor {
     visibility: hidden;
 }
 
+.link
+{
+    display: flex;
+    flex-direction: row;
+   justify-content: flex-end;
+  
+}
+
 /*CONTENT WEBPAGE*/
 
 .page-wrapper
 {
     width:100%;
-    border:1px solid black;
-    margin-top:75px;
+    margin-top:70px;
     display:flex;
     flex-direction: column;
+    border:1px solid red;
     
 }
 
@@ -96,6 +106,7 @@ a.anchor {
 {
     border:1px solid blue;
     width:100%;
+    margin-top:10px;
    
 }
 
@@ -103,28 +114,32 @@ a.anchor {
 
 footer
 {
-    border:1px solid red;
-    
+  
+    margin-top: 20px;
     width:100%;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding-top:40px;
+    padding-bottom: 40px;
+    background-color: #3E5863;
+    color:white;
 }
 
 .footer-box
 {
-    border:1px solid yellow;
-    width:300px;
+  
     display: flex;
     flex-direction: column;
     align-items: center;
+    
    
 }
 
 .footer-box h3
 {
-    border-bottom:1px solid black;
+    border-bottom:2px solid white;
     width: 100%;
     text-align: center;
     padding-top: 5px;
@@ -133,7 +148,40 @@ footer
 
 .footer-box.logo
 {
-    justify-content: center;
+    
     font-size: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact
+{
+  
+    margin-top: 15px;
+    text-align: center;
+}
+
+.social-media
+{
+    
+    margin-top: 15px;
+}
+
+.social-media a
+{
+    text-decoration: none;
+    color:white;
+}
+
+.social-media a:hover
+{
+    color:grey;
+}
+
+
+.fab
+{
+    font-size: 40px;
+    margin:0 5px 0 5px;
     
 }
