@@ -1,17 +1,44 @@
-#schedule .list {
-    padding: 70px;
-    margin-left: 50px;
-    width: 80%;
-    display: block;
-    border: 1px solid #d1d1d3;
+.box2
+{
+    background-color: white;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
 }
-#schedule .event {
+
+.header p
+{
+    color:#d8d5e2;
+    font-size: 22px;
+    padding-bottom: 30px;
+}
+
+.list 
+{
+    width: 80%;
+}
+
+.event
+{
+    text-align: center;
+}
+
+.list .event 
+{
     padding: 1rem 3rem;
 }
-#schedule span.date{
-    color: #ac5353;
+
+.list span.date
+{
+    
+    color: #6F6CB6;
+
 }
-#schedule > h1{
-    margin: 0 1rem;
-    padding: 1rem; 
+
+.event p
+{
+    padding-top: 10px;
+
 }
