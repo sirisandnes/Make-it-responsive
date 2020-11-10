@@ -1,281 +1,294 @@
 <!DOCTYPE html>
-
 <html lang="en">
-    <head>
-        <tile>Inova</tile>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <tile>Inova</tile>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <link rel="stylesheet" href="./css/index.css">
-        <link rel="stylesheet" href="./css/hami.css">
-        <link rel="stylesheet" href="./css/tony.css">
-        <link rel="stylesheet" href="./css/vegard.css">
-        <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/hami.css" />
+    <link rel="stylesheet" href="./css/tony.css" />
+    <link rel="stylesheet" href="./css/vegard.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
 
-        <script src="https://kit.fontawesome.com/04bc7cb3ba.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/04bc7cb3ba.js"
+      crossorigin="anonymous"
+    ></script>
 
-        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-leftside">
+        <a href="index.html">INOVA</a>
+      </div>
+      <div class="nav-rightside">
+        <ul class="menyliste" id="menylisteId">
+          <li><a href="#about">ABOUT US</a></li>
+          <li><a href="#schedule">INNOVATION CAMPS</a></li>
+          <li><a href="#ansatte">OUR STAFF</a></li>
+          <li class="link">
+            <a href="" style="margin-right: 0">NOR</a>/<a href="">ENG</a>
+          </li>
+        </ul>
+        <span class="hamburger" id="hamburgerId">
+          <i class="fa fa-bars"></i>
+        </span>
+      </div>
+    </nav>
 
-    </head>
-    <body>
-
-        <nav class="navbar">
-            <div class="nav-leftside">
-                <a href="index.html">INOVA</a>
-            </div>
-            <div class="nav-rightside">
-                <ul class="menyliste" id="menylisteId">
-                    <li><a href="">ABOUT US</a></li>
-                    <li><a href="">INNOVATION CAMPS</a></li>
-                    <li><a href="">OUR STAFF</a></li>
-                    <li class="link"><a href="" style="margin-right: 0;">NOR</a>/<a href="">ENG</a></li>
-                    
-                </ul>
-                <span class="hamburger" id="hamburgerId">
-                    <i class="fa fa-bars"></i>
-                </span>
-            </div>
-        </nav>
-
-        <!-- Denne div klassen ligger under header og skal ha alt av innhold inni seg-->
-        <div class="page-wrapper">
-
-            <!--VIKTIG! ikke bruk klassen content-box når dere redigerer, bruk heller
+    <!-- Denne div klassen ligger under header og skal ha alt av innhold inni seg-->
+    <div class="page-wrapper">
+      <!--VIKTIG! ikke bruk klassen content-box når dere redigerer, bruk heller
             klassen jeg har skrevet bak, eller lag din egen klasse hvis du feks skal endre boksen sin display.
             Endringer i "content-box" vil påvirke ALLE tre boksene.-->
-            <div class="content-box box1">  
+      <div class="content-box box1">
+        <div class="boks1">
+          <div class="forsideLogoboks">
+            <div class="forsidelogo">INOVA</div>
 
-                <div class="boks1">
+            <div class="undertekstlogo">For en bedre framtid</div>
+          </div>
+        </div>
+      </div>
 
-                    <div class="forsideLogoboks">
-                        <div class="forsidelogo">
-                            INOVA
-                        </div>
+      <div class="bioboks" id="about">
+        <div class="biografi">
+          <h2>Om oss</h2>
 
-                        <div class = "undertekstlogo">
-                            For en bedre framtid
-                        </div>
-                    
-                    </div>    
-                
-                </div>    
-
-            </div>
-
-                        <div class="bioboks">
-
-                            <div class="biografi">
-                                <h2>Om oss</h2>
-                                    
-                                <p>
-                                    Hva forbinder vi når man hører ordet innovasjon? Fornyelse? Nyskapning? Forandring? 
-                                    I bunn og grunn er det nye produkter, tjenester eller produksjonsprosesser som står sentralt når vi snakker om innovasjon. 
-                                    Eller så kan man se på begrepet som å bringe fram endringer i måten økonomiske goder eller andre verdier blir produsert på. 
-                                    INOVA er en kompani som jobber med sparsomhet og reproduksjon av produkter. Vi i kompaniet er opptatt av hente inn resirkulere produkter, 
-                                    for så å innovere det om til noe brukelig i hverdagen. 
-                                    
-                            </div>
-
-                            <div class="biobilde">
-
-                                <picture>
-                                    <img src="intelligence.png" width="400" alt="Bilde av innovasjonssteg">
-                                </picture>
-
-                            </div>
-                            
-                        </div>
-
-                        
-                    
-
-                    <div class="bioboks">
-
-                        <div class="biobilde1">
-
-                            <picture>
-                                <img src="Industry-Mentor-Isometric.png" width="400" alt="Bilde av en innovasjonsgruppe">
-                            </picture>
-
-                        </div>
-
-                        <div class="biografi1">
-                            <h2>Vår jobb</h2>
-                                
-                            <p>
-                                INOVA arbeider for en trygg og bærekraftig arbeidsplass. 
-                                Vi ønsker å danne innovasjonsgrupper hvor du kan bidra til å skape flere miljøvennlige produkter. 
-                                Disse produktene går gjennom vårt marked, hvor vi som bedrift styrer vår egen økonomi og markedsføring. 
-                                Ettersom innovasjonsgruppene har skapt et nytt stabilt produkt, går mesteparten av inntekten til denne gruppen. 
-                                Bedriften sørger for å markedsføre og lansere ut videre til verden. Både vi tjener på det, og du som arbeider tjener på det. 
-                                Er du den rette til vårt team? Ta kontakt!
-                                
-
-                                
-                        </div>
-                        
-
-                    </div>
-
-                
-
-
-
-                <div class="content-box box2">
-                    her skal tony legge inn
-                </div>
-
-            
- 
-                <div class="content-box box3">
-                    <p style="font-size: 2em; font-weight: bold; margin-left: 10px;">Ansatte</p>
-                       <div class="wrapper-content-vegard">
-                           <div class="staff">
-                               <img src="Images/Female.png" alt="Image of the staff member">
-                               <div class="imgtext"> 
-                                   Navn: Kari Nordmann <br>
-                                   Stilling: Leder <br>
-                                   Telefon: 12345678<br>
-                                   Mail: <a href="Leder@mail.com">Leder@mail.com</a> 
-                               </div>
-                           </div>
-                           <div class="staff">
-                            <img src="Images/Female.png" alt="Image of the staff member">
-                            <div class="imgtext"> 
-                                Navn: Kari Nordmann <br>
-                                Stilling: Nestleder <br>
-                                Telefon: 12345678<br>
-                                Mail: <a href="Nestleder@mail.com">Nestleder@mail.com</a> 
-                            </div>
-                        </div>
-                        <div class="staff">
-                            <img src="Images/Male.png" alt="Image of the staff member">
-                            <div class="imgtext"> 
-                                Navn: Ola Nordmann <br>
-                                Stilling: IT <br>
-                                Telefon: 12345678<br>
-                                Mail: <a href="IT@mail.com">IT@mail.com</a> 
-                            </div>
-                        </div>
-                        <div class="staff">
-                            <img src="Images/Male.png" alt="Image of the staff member">
-                            <div class="imgtext"> 
-                                Navn: Ola Nordmann <br>
-                                Stilling: Leder <br>
-                                Telefon: 12345678<br>
-                                Mail: <a href="Leder@mail.com">Leder@mail.com</a> 
-                            </div>
-                        </div>
-                        <div class="staff">
-                            <img src="Images/Female.png" alt="Image of the staff member">
-                            <div class="imgtext"> 
-                                Navn: Kari Nordmann <br>
-                                Stilling: Leder <br>
-                                Telefon: 12345678<br>
-                                Mail: <a href="Leder@mail.com">Leder@mail.com</a> 
-                            </div>
-                        </div>
-                        <div class="staff">
-                            <img src="Images/Male.png" alt="Image of the staff member">
-                            <div class="imgtext"> 
-                                Navn: Ola Nordmann <br>
-                                Stilling: Leder <br>
-                                Telefon: 12345678<br>
-                                Mail: <a href="Leder@mail.com">Leder@mail.com</a> 
-                            </div>
-                        </div>
-                        <div class="staff">
-                            <img src="Images/Male.png" alt="Image of the staff member">
-                            <div class="imgtext"> 
-                                Navn: Ola Nordmann <br>
-                                Stilling: Leder <br>
-                                Telefon: 12345678<br>
-                                Mail: <a href="Leder@mail.com">Leder@mail.com</a> 
-                            </div>
-                        </div>
-                        <div class="staff">
-                            <img src="Images/Female.png" alt="Image of the staff member">
-                            <div class="imgtext"> 
-                                Navn: Kari Nordmann <br>
-                                Stilling: Leder <br>
-                                Telefon: 12345678<br>
-                                Mail: <a href="Leder@mail.com">Leder@mail.com</a> 
-                            </div>
-                        </div>
-                        <div class="staff">
-                            <img src="Images/Male.png" alt="Image of the staff member">
-                            <div class="imgtext"> 
-                                Navn: Ola Nordmann <br>
-                                Stilling: Leder <br>
-                                Telefon: 12345678<br>
-                                Mail: <a href="Leder@mail.com">Leder@mail.com</a> 
-                            </div>
-                        </div>
-                        <div class="staff">
-                            <img src="Images/Male.png" alt="Image of the staff member">
-                            <div class="imgtext"> 
-                                Navn: Ola Nordmann <br>
-                                Stilling: Leder <br>
-                                Telefon: 12345678<br>
-                                Mail: <a href="Leder@mail.com">Leder@mail.com</a> 
-                            </div>
-                        </div>
-                        <div class="staff">
-                            <img src="Images/Female.png" alt="Image of the staff member">
-                            <div class="imgtext"> 
-                                Navn: Kari Nordmann <br>
-                                Stilling: Leder <br>
-                                Telefon: 12345678<br>
-                                Mail: <a href="Leder@mail.com">Leder@mail.com</a> 
-                            </div>
-                        </div>
-
-                       </div>
-                    </div>
-    
-
+          <p>
+            Hva forbinder vi når man hører ordet innovasjon? Fornyelse?
+            Nyskapning? Forandring? I bunn og grunn er det nye produkter,
+            tjenester eller produksjonsprosesser som står sentralt når vi
+            snakker om innovasjon. Eller så kan man se på begrepet som å bringe
+            fram endringer i måten økonomiske goder eller andre verdier blir
+            produsert på. INOVA er en kompani som jobber med sparsomhet og
+            reproduksjon av produkter. Vi i kompaniet er opptatt av hente inn
+            resirkulere produkter, for så å innovere det om til noe brukelig i
+            hverdagen.
+          </p>
         </div>
 
-        <!--Her kommer footer med kontakt info-->
-        <footer>
-            <div class="footer-box">
-                <h3>CONTACT</h3>
-                <div class="contact">
-                    <p>Postboks 4, St. Olavs plass</p>
-                    <p>0130 Oslo</p>
-                    <p>Tlf.: 12 34 56 78</p>
+        <div class="biobilde">
+          <picture>
+            <img
+              src="intelligence.png"
+              width="400"
+              alt="Bilde av innovasjonssteg"
+            />
+          </picture>
+        </div>
+      </div>
 
-                </div>
+      <div class="bioboks">
+        <div class="biobilde1">
+          <picture>
+            <img
+              src="Industry-Mentor-Isometric.png"
+              width="400"
+              alt="Bilde av en innovasjonsgruppe"/>
+          </picture>
+        </div>
+
+        <div class="biografi1">
+          <h2>Vår jobb</h2>
+
+          <p>
+            INOVA arbeider for en trygg og bærekraftig arbeidsplass. Vi ønsker å
+            danne innovasjonsgrupper hvor du kan bidra til å skape flere
+            miljøvennlige produkter. Disse produktene går gjennom vårt marked,
+            hvor vi som bedrift styrer vår egen økonomi og markedsføring.
+            Ettersom innovasjonsgruppene har skapt et nytt stabilt produkt, går
+            mesteparten av inntekten til denne gruppen. Bedriften sørger for å
+            markedsføre og lansere ut videre til verden. Både vi tjener på det,
+            og du som arbeider tjener på det. Er du den rette til vårt team? Ta
+            kontakt!
+          </p>
+        </div>
+      </div>
+
+      <div class="list" id="schedule">
+        <h1>Innovation Camps</h1>
+        <div class="event">
+          <h2><span class="date">16.11.2020</span> - Introduction to innovation </h2>
+          <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, vitae.
+          </p>
+        </div>
+        <div class="event">
+          <h2><span class="date">28.11.2020</span> - Innovation camps</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit rerum, voluptas odio eum vitae explicabo!
+          </p>
+        </div>
+        <div class="event">
+          <h2><span class="date">12.12.2020</span> - How to be more innovative</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, labore quaerat?
+          </p>
+        </div>
+        <div class="event">
+            <h2><span class="date">16.12.2020</span> - How to be more innovative 2</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, labore quaerat?
+            </p>
+          </div>
+      </div>
+
+      <div class="content-box box3" id="ansatte">
+        <p style="font-size: 2em; font-weight: bold; margin-left: 10px">
+          Ansatte
+        </p>
+        <div class="wrapper-content-vegard">
+          <div class="staff">
+            <img src="Images/Female.png" alt="Image of the staff member" />
+            <div class="imgtext">
+              Navn: Kari Nordmann <br />
+              Stilling: Leder <br />
+              Telefon: 12345678<br />
+              Mail: <a href="Leder@mail.com">Leder@mail.com</a>
             </div>
-
-            <div class="footer-box logo" >
-                INOVA
+          </div>
+          <div class="staff">
+            <img src="Images/Female.png" alt="Image of the staff member" />
+            <div class="imgtext">
+              Navn: Kari Nordmann <br />
+              Stilling: Nestleder <br />
+              Telefon: 12345678<br />
+              Mail: <a href="Nestleder@mail.com">Nestleder@mail.com</a>
             </div>
-
-            <div class="footer-box">
-                <h3>SOCIAL MEDIA</h3>
-                <div class="social-media">
-                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>
-                </div>
+          </div>
+          <div class="staff">
+            <img src="Images/Male.png" alt="Image of the staff member" />
+            <div class="imgtext">
+              Navn: Ola Nordmann <br />
+              Stilling: IT <br />
+              Telefon: 12345678<br />
+              Mail: <a href="IT@mail.com">IT@mail.com</a>
             </div>
-        </footer>
+          </div>
+          <div class="staff">
+            <img src="Images/Male.png" alt="Image of the staff member" />
+            <div class="imgtext">
+              Navn: Ola Nordmann <br />
+              Stilling: Leder <br />
+              Telefon: 12345678<br />
+              Mail: <a href="Leder@mail.com">Leder@mail.com</a>
+            </div>
+          </div>
+          <div class="staff">
+            <img src="Images/Female.png" alt="Image of the staff member" />
+            <div class="imgtext">
+              Navn: Kari Nordmann <br />
+              Stilling: Leder <br />
+              Telefon: 12345678<br />
+              Mail: <a href="Leder@mail.com">Leder@mail.com</a>
+            </div>
+          </div>
+          <div class="staff">
+            <img src="Images/Male.png" alt="Image of the staff member" />
+            <div class="imgtext">
+              Navn: Ola Nordmann <br />
+              Stilling: Leder <br />
+              Telefon: 12345678<br />
+              Mail: <a href="Leder@mail.com">Leder@mail.com</a>
+            </div>
+          </div>
+          <div class="staff">
+            <img src="Images/Male.png" alt="Image of the staff member" />
+            <div class="imgtext">
+              Navn: Ola Nordmann <br />
+              Stilling: Leder <br />
+              Telefon: 12345678<br />
+              Mail: <a href="Leder@mail.com">Leder@mail.com</a>
+            </div>
+          </div>
+          <div class="staff">
+            <img src="Images/Female.png" alt="Image of the staff member" />
+            <div class="imgtext">
+              Navn: Kari Nordmann <br />
+              Stilling: Leder <br />
+              Telefon: 12345678<br />
+              Mail: <a href="Leder@mail.com">Leder@mail.com</a>
+            </div>
+          </div>
+          <div class="staff">
+            <img src="Images/Male.png" alt="Image of the staff member" />
+            <div class="imgtext">
+              Navn: Ola Nordmann <br />
+              Stilling: Leder <br />
+              Telefon: 12345678<br />
+              Mail: <a href="Leder@mail.com">Leder@mail.com</a>
+            </div>
+          </div>
+          <div class="staff">
+            <img src="Images/Male.png" alt="Image of the staff member" />
+            <div class="imgtext">
+              Navn: Ola Nordmann <br />
+              Stilling: Leder <br />
+              Telefon: 12345678<br />
+              Mail: <a href="Leder@mail.com">Leder@mail.com</a>
+            </div>
+          </div>
+          <div class="staff">
+            <img src="Images/Female.png" alt="Image of the staff member" />
+            <div class="imgtext">
+              Navn: Kari Nordmann <br />
+              Stilling: Leder <br />
+              Telefon: 12345678<br />
+              Mail: <a href="Leder@mail.com">Leder@mail.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <script type="text/javascript">
-            let menylisteVar = document.getElementById('menylisteId');
-            let hamburgerVar = document.getElementById('hamburgerId');
-    
-            hamburgerVar.addEventListener('click', function() {
-                menylisteVar.classList.toggle('aktiv');
-            });
-    
-            menylisteVar.addEventListener('click', function() {
-                if (menylisteVar.classList.contains('aktiv')) {
-                    menylisteVar.classList.toggle('aktiv');
-                };
-            });
-        </script>
+    <!--Her kommer footer med kontakt info-->
+    <footer>
+      <div class="footer-box">
+        <h3>CONTACT</h3>
+        <div class="contact">
+          <p>Postboks 4, St. Olavs plass</p>
+          <p>0130 Oslo</p>
+          <p>Tlf.: 12 34 56 78</p>
+        </div>
+      </div>
 
-    </body>
+      <div class="footer-box logo">INOVA</div>
+
+      <div class="footer-box">
+        <h3>SOCIAL MEDIA</h3>
+        <div class="social-media">
+          <a href="https://www.instagram.com/" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://www.facebook.com/" target="_blank"
+            ><i class="fab fa-facebook-square"></i
+          ></a>
+          <a href="https://twitter.com/" target="_blank"
+            ><i class="fab fa-twitter-square"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript">
+      let menylisteVar = document.getElementById("menylisteId");
+      let hamburgerVar = document.getElementById("hamburgerId");
+
+      hamburgerVar.addEventListener("click", function () {
+        menylisteVar.classList.toggle("aktiv");
+      });
+
+      menylisteVar.addEventListener("click", function () {
+        if (menylisteVar.classList.contains("aktiv")) {
+          menylisteVar.classList.toggle("aktiv");
+        }
+      });
+    </script>
+  </body>
 </html>

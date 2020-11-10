@@ -1,0 +1,17 @@
+#schedule .list {
+    padding: 70px;
+    margin-left: 50px;
+    width: 80%;
+    display: block;
+    border: 1px solid #d1d1d3;
+}
+#schedule .event {
+    padding: 1rem 3rem;
+}
+#schedule span.date{
+    color: #ac5353;
+}
+#schedule > h1{
+    margin: 0 1rem;
+    padding: 1rem; 
+}
